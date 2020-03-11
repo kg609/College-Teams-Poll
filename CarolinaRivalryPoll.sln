@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarolinaRivalryPoll", "CarolinaRivalryPoll\CarolinaRivalryPoll.csproj", "{954EB010-E363-4D30-A670-D4B052DD6200}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8007068D-5DE6-4329-B972-6D6DD515B947}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\Grant.sql = ..\..\Grant.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{954EB010-E363-4D30-A670-D4B052DD6200}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{954EB010-E363-4D30-A670-D4B052DD6200}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{954EB010-E363-4D30-A670-D4B052DD6200}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{954EB010-E363-4D30-A670-D4B052DD6200}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9D72D135-A2EA-446D-9ADA-BC4BC619A06B}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,140 @@
+﻿
+
+#PollContainer h1 {
+    position: absolute;
+    z-index: 1;
+    margin-top: 120px;
+    left: 10%;
+    color: #FFF;
+    border: #000;
+    text-shadow: 0px 3px 3px #000;
+    font-size: 60px;
+    font-family: Arial;
+}
+
+#PollContainer p {
+    font-size: 20px;
+}
+
+#divUNCContainer {
+    background: #7BAFD4;
+    height: 1000px;
+}
+
+#divUNCContainer h2,
+#divDukeContainer h2 {
+    color: #FFF;
+    border: #000;
+    text-shadow: 0px 3px 3px #000;
+    font-size: 45px;
+}
+
+#divDukeContainer {
+    position: relative;
+    color: black;
+    height: 1000px;
+    background-color: #0000CD;
+}
+
+.divContentContainer {
+    margin-top: 300px;
+}
+
+/* Customize the label (the container) */
+.checkboxContainer {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin: 30px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.checkboxContainer input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 46%;
+    height: 40px;
+    width: 40px;
+    background-color: #eee;
+    border-radius: 5px;
+}
+
+/* On mouse-over, add a grey background color */
+.checkboxContainer:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.checkboxContainer input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.checkboxContainer input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.checkboxContainer .checkmark:after {
+    left: 15px;
+    top: 8px;
+    width: 10px;
+    height: 20px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+#lblUNC, 
+#lblDUKE {
+    color: #FFF;
+    border: #000;
+    text-shadow: 0px 3px 3px #000;
+    font-size: 30px;
+}
+
+#btnSubmit {
+    position: absolute;
+    left: 44%;
+    bottom: 20%;
+    padding: 10px;
+    width: 100%;
+    max-width: 150px;
+    border-radius: 5px;
+    color: #FFF;
+    border: #000;
+    text-shadow: 0px 3px 3px #000;
+    font-size: 20px;
+    background: gray;
+    -webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+    letter-spacing: 1px;
+}
+
+#divErrorMessage {
+
+}
